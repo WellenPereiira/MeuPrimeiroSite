@@ -1,0 +1,11 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.title{
+  background-color:powderblue;
+  text-align: center;
+}
+.corpo{
+  text-align: center;
+}
