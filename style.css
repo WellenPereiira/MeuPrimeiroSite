@@ -2,10 +2,19 @@ html, body {
   height: 100%;
   width: 100%;
 }
+.container{
+  width: 100%;
+}
 .title{
   background-color:powderblue;
   text-align: center;
+  width: 100%;
 }
 .corpo{
   text-align: center;
+  font-size: 10%;
+}
+.livros{
+  color:#71b7c1;
+  text-decoration: underline;
 }
