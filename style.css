@@ -12,9 +12,12 @@ html, body {
 }
 .corpo{
   text-align: center;
-  font-size: 10%;
+  font-size: 5%;
 }
 .livros{
   color:#71b7c1;
   text-decoration: underline;
+}
+.link{
+  font-size: 10%;
 }
