@@ -49,6 +49,37 @@
             <li>A garota do lago</li>
           </a>
         </ul>
+        
+        <div class="relogio">
+        
+          <script type="text/javascript">
+          function startTime() {
+            var today = new Date();
+            var horas = today.getHours();
+            var minutos = today.getMinutes();
+            var segundos = today.getSeconds();
+            
+            //para adicionar um 0 na frente de um número>10
+            minutos = checkTime(minutos);
+            segundos = checkTime(segundos);
+            document.getElementById('txt').innerHTML = horas + ":" + minutos + ":" + segundos;
+            t = setTimeout('startTime()', 500);
+
+          }
+
+          function checkTime(i) {
+            if (i < 10) {
+              i = "0" + i;
+            }
+            return i;
+          }
+        </script>
+      </div>
+
+
+        <div id="txt">
+          <script type="text/javascript">document.write(startTime())</script>
+        </div>
       </h5>
     </div>
 
